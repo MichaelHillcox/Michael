@@ -2,8 +2,8 @@
 
 <div id="masterSplash">
     <div class="container">
-        <div id="passion"><span>Designer,</span> <span>Developer,</span> <span>Creator</span></div>
-        <div id="experience">With <span>5</span> years of experience</div>
+        <div id="passion"><span>Developer,</span> <span>Designer,</span> <span>Human</span></div>
+        <div id="experience">With <b>7</b> years of experience... <small>*not the human bit*</small></div>
     </div>
 </div>
 
