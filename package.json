@@ -2,7 +2,7 @@
   "name": "michaelhillcox",
   "version": "1.0.1",
   "description": "My personal website :) ",
-  "main": "gulpfile.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,8 @@
     "gulp-livereload": "^3.8.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.14.1"
   }
 }
