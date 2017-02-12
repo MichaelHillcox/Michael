@@ -19,8 +19,18 @@
                     <span id="hillcox">Hillcox</span>
                 </a>
                 <nav id="topNav">
-                    <li><a href="/me">Me</a></li>
-                    <li><a href="/work">Work</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <svg width="26px" height="42px" viewBox="21 22 54 52">
+                        <rect id="Rectangle" stroke="none" fill="#212121" fill-rule="evenodd" x="21" y="22" width="53.1344077" height="6" rx="3"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#212121" fill-rule="evenodd" x="21" y="68" width="53.1344077" height="6" rx="3"></rect>
+                        <rect id="Rectangle" stroke="none" fill="#212121" fill-rule="evenodd" x="21" y="45" width="53.1344077" height="6" rx="3"></rect>
+                    </svg>
+                    <div id='navBeGone' class="hidden">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/me">Me</a></li>
+                            <li><a href="/work">Work</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
