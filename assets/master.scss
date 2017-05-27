@@ -29,6 +29,14 @@ body, html {
 
 header#header {
     margin: 45px auto 65px;
+    display: flex;
+    justify-content: space-between;
+
+    ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
     #logoName {
         text-decoration: none;
         display: inline-block;
@@ -44,17 +52,41 @@ header#header {
     }
 
     nav#topNav {
-        float: right;
         line-height: 42px;
-        width: 42px;
-        height: 42px;
         text-align: right;
 
-        #navIcon {
-            display: none;
+        &.full {
+            line-height: 42px;
+            #navIcon {
+                display: none;
+                width: 42px;
+                height: 42px;
+            }
+
+            li {
+                display: inline-block;
+                font-size: 18px;
+                padding: 0 20px;
+
+                &:last-child  {
+                    padding-right: 0;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $textColour;
+                    border-bottom: 1px dashed $textColour;
+                    transition: border .2s ease-in-out, color .2s ease-in-out;
+                    &:hover {
+                        color: $blue !important;
+                        border-color: $blue;
+                    }
+                }
+            }
         }
 
-        #navBeGone {
+        &.min {
+
             &:not(.hidden) {
                 display: flex;
                 display: -webkit-flex;
