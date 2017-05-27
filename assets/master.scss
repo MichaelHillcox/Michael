@@ -105,7 +105,7 @@ header#header {
     height: 460px;
     margin-bottom: 65px;
 
-    .container {
+    .content {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
@@ -221,11 +221,11 @@ header#header {
                 background-image: url('images/isosickle.png');
             }
 
-            &:hover .container {
+            &:hover .content {
                 opacity: 0;
             }
 
-            .container {
+            .content {
                 transition: opacity .5s ease-in-out;
                 display: table-cell;
                 vertical-align: middle;
@@ -359,7 +359,7 @@ header#header {
     height: 300px;
     margin-bottom: 65px;
 
-    .container {
+    .content {
         display: table-cell;
         vertical-align: middle;
         text-align: center;
@@ -405,7 +405,7 @@ header#header {
             }
         }
 
-        &:hover:not(.notlink) > .container .title {
+        &:hover:not(.notlink) > .content .title {
             border-color: rgba(255, 255, 255, .5);
 
         }
@@ -420,7 +420,7 @@ header#header {
             margin-left: 5%;
         }
 
-        .container {
+        .content {
             display: table-cell;
             vertical-align: middle;
             .title {
@@ -447,7 +447,7 @@ header#header {
     width: 100%;
     margin: 140px 0;
 
-    .container {
+    .content {
         display: table-cell;
         vertical-align: middle;
         .title {
