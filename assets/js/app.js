@@ -16,13 +16,20 @@ $(document).ready((e) => {
         });
     });
 
-    setTimeout(function () {
-        $('body, html').animate({opacity: 1}, 300);
-        if( first === null )
-            $('#header').animate({top: 0}, 600, 'ease');
-        else
-            $('#header').css({top: 0});
-    }, 100);
+    $('body, html').animate({opacity: 1}, 200);
+    if( first === null )
+        $('#header').animate({top: 0}, 600, 'ease');
+    else
+        $('#header').css({top: 0});
+
+    // animate our internal links
+    $("a[data-internal='true']").on('click', function(e){
+        e.preventDefault();
+        var $me = $(this);
+        $('body, html').animate({opacity: 0}, 80, () => {
+            document.location = $me.attr('href');
+        });
+    });
 
     if( first === null )
         storage.setItem("firsttime", true);
