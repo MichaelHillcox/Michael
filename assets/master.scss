@@ -3,9 +3,9 @@
 $textColour: rgb(33, 33, 33);
 $blue: rgb(91, 183, 255);
 
-$middlePoint: "only screen and (max-width : 800px)";
-$lowPoint: "only screen and (max-width : 550px)";
-$min650: "only screen and (max-width : 650px)";
+$middlePoint: "(max-width : 800px)";
+$lowPoint: "(max-width : 550px)";
+$min650: "(max-width : 650px)";
 
 .blue {
     font-weight: 400;
@@ -19,6 +19,7 @@ body, html {
     width: 100%;
     min-height: 100vh;
     margin: 0;
+    position: relative;
 }
 
 .container {
@@ -51,49 +52,45 @@ header#header {
         }
     }
 
-    nav#topNav {
-        line-height: 42px;
-        text-align: right;
+    #navIcon {
+        display: none;
+        cursor: pointer;
+    }
 
-        &.full {
-            line-height: 42px;
-            #navIcon {
-                display: none;
-                width: 42px;
-                height: 42px;
+    @media #{$min650} {
+        #navIcon {
+            display: block;
+        }
+    }
+
+    nav#topNav {
+        text-align: right;
+        line-height: 42px;
+
+        li {
+            display: inline-block;
+            font-size: 18px;
+            padding: 0 20px;
+
+            &:last-child  {
+                padding-right: 0;
             }
 
-            li {
-                display: inline-block;
-                font-size: 18px;
-                padding: 0 20px;
-
-                &:last-child  {
-                    padding-right: 0;
-                }
-
-                a {
-                    text-decoration: none;
-                    color: $textColour;
-                    border-bottom: 1px dashed $textColour;
-                    transition: border .2s ease-in-out, color .2s ease-in-out;
-                    &:hover {
-                        color: $blue !important;
-                        border-color: $blue;
-                    }
+            a {
+                text-decoration: none;
+                color: $textColour;
+                border-bottom: 1px dashed $textColour;
+                transition: border .2s ease-in-out, color .2s ease-in-out;
+                &:hover {
+                    color: $blue !important;
+                    border-color: $blue;
                 }
             }
         }
 
-        &.min {
-
-            &:not(.hidden) {
-                display: flex;
-                display: -webkit-flex;
-                justify-content: center;
-                align-items: center;
-            }
-            display: none;
+        @media #{$min650} {
+            visibility: hidden;
+            opacity: 0;
             position: fixed;
             top: 0;
             left: 0;
@@ -102,6 +99,14 @@ header#header {
             z-index: 5;
             background-color: rgba(black, .95);
             -webkit-backdrop-filter: blur(10px);
+            z-index: -1;
+            transition: opacity .2s ease, visibility .2s ease;
+
+            &.visible {
+                visibility: visible;
+                opacity: 1;
+                z-index: 200;
+            }
 
             ul {
                 text-align: center;
