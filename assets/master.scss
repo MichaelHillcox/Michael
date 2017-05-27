@@ -67,6 +67,10 @@ header#header {
         text-align: right;
         line-height: 42px;
 
+        .close {
+            display: none;
+        }
+
         li {
             display: inline-block;
             font-size: 18px;
@@ -101,13 +105,23 @@ header#header {
             -webkit-backdrop-filter: blur(10px);
             z-index: -1;
 
+            .close {
+                display: block;
+                position: absolute;
+                right: 20px;
+                top: 50px;
+                cursor: pointer;
+            }
+
             ul {
                 text-align: center;
+                margin-top: 10rem;
                 li {
                     display: block;
                     font-size: 40px;
                     font-weight: 100;
-                    line-height: 130px;
+                    line-height: 6rem;
+                    padding: 0;
 
                     a {
                         text-decoration: none;
