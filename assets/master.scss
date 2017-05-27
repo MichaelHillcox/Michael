@@ -1,8 +1,5 @@
 ---
 ---
-
-@import 'https://fonts.googleapis.com/css?family=Lato:300,400,100';
-
 $textColour: rgb(33, 33, 33);
 $blue: rgb(91, 183, 255);
 
@@ -57,6 +54,10 @@ header#header {
         width: 42px;
         height: 42px;
         text-align: right;
+
+        #navIcon {
+            display: none;
+        }
 
         #navBeGone {
             &:not(.hidden) {
