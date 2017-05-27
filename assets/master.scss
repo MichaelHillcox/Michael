@@ -24,7 +24,7 @@ body, html {
     margin: 0;
 }
 
-#container {
+.container {
     max-width: 900px;
     width: 95%;
     margin: 0 auto;
@@ -36,8 +36,7 @@ ul, li {
 }
 
 header#header {
-    margin: 45px 0 65px;
-
+    margin: 45px auto 65px;
     #logoName {
         text-decoration: none;
         display: inline-block;
