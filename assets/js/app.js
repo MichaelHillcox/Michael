@@ -11,7 +11,7 @@ $(document).ready(function(e) {
     });
 
     close.on('click', function(e) {
-        nav.animate({opacity: 0}, 300, () => {
+        nav.animate({opacity: 0}, 300, function() {
             nav.removeAttr("style");
         });
     });
