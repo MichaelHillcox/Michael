@@ -1,4 +1,4 @@
-$(document).ready((e) => {
+$(document).ready(function(e) {
     var storage = window.localStorage,
         first = storage.getItem("firsttime");
 
@@ -6,11 +6,11 @@ $(document).ready((e) => {
         navBtn = $('#navIcon'),
         close = nav.find('.close');
 
-    navBtn.on('click', (e) => {
+    navBtn.on('click', function(e) {
         nav.css({visibility: "visible", "z-index": 500}).animate({opacity: 1}, 300, 'ease');
     });
 
-    close.on('click', () => {
+    close.on('click', function(e) {
         nav.animate({opacity: 0}, 300, () => {
             nav.removeAttr("style");
         });
@@ -26,7 +26,7 @@ $(document).ready((e) => {
     $("a[data-internal='true']").on('click', function(e){
         e.preventDefault();
         var $me = $(this);
-        $('body, html').animate({opacity: 0}, 80, () => {
+        $('body, html').animate({opacity: 0}, 80, function() {
             document.location = $me.attr('href');
         });
     });
