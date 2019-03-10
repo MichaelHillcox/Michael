@@ -4,5 +4,3 @@ up to date and up to spec as I possibly can; I’m throwing it out into the wild
 
 # Using
 - [Jekyll](https://jekyllrb.com)
-- [Sass](http://sass-lang.com/)
-- [Zeptojs](http://zeptojs.com/)
