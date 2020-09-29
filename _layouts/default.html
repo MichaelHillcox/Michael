@@ -12,44 +12,9 @@
         <link rel="icon" type="image/png" href="{{ "assets/images/favicon-96x96.png" | relative_url }}" sizes="96x96">
     </head>
     <body>
-        <header id="header" class="container">
-            <a data-internal=true href="/" id="logoName">
-                <span id="michael">Michael</span>
-                <span id="hillcox">Hillcox</span>
-            </a>
-            <svg id="navIcon" width="26px" height="42px" viewbox="21 22 54 52">
-                <rect stroke="none" fill="#212121" fill-rule="evenodd" x="21" y="22" width="53.1344077" height="6" rx="3"></rect>
-                <rect stroke="none" fill="#212121" fill-rule="evenodd" x="21" y="68" width="53.1344077" height="6" rx="3"></rect>
-                <rect stroke="none" fill="#212121" fill-rule="evenodd" x="21" y="45" width="53.1344077" height="6" rx="3"></rect>
-            </svg>
-            <nav id="topNav">
-                <svg class="close" width="30px" height="30px" viewBox="0 0 40 40">
-                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-                        <path d="M1.63810602,38.6226071 L38.6301542,1.63055891" stroke="#ffffff" stroke-width="4"></path>
-                        <path d="M1.63810602,1.63810602 L38.7456328,38.7456328" stroke="#ffffff" stroke-width="4"></path>
-                    </g>
-                </svg>
-                <ul>
-                    <li><a data-internal=true href="/about">About</a></li>
-                    <li><a data-internal=true href="/portfolio">Portfolio</a></li>
-                    <li><a data-internal=true href="/contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
         <div class="container">
             {{ content }}
         </div>
-
-        <footer class="container">
-            <a class="email" href="mailto:hello.michaelhillcox@gmail.com">hello.michaelhillcox@gmail.com</a>
-            <nav id="footerNav">
-                <li><a href="http://github.com/michaelhillcox">GitHub</a></li>
-                <li><a href="http://dribbble.com/michaelhillcox">Dribbble</a></li>
-            </nav>
-        </footer>
-
-        <script type="text/javascript" src="{{ "assets/js/zepto.min.js" | relative_url }}" defer></script>
         <script type="text/javascript" src="{{ "assets/js/app.js" | relative_url }}" defer></script>
     </body>
 </html>
