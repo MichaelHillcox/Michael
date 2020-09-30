@@ -5,7 +5,7 @@ layout: default
 <div class="logo"></div>
 
 # Michael Hillcox
-Hey 👋 welcome to my portfolio! I'm currently working on updating it so I've gathered some useful about me. 
+Hey 👋 welcome to my portfolio! I'm currently working on updating it so I've gathered some useful info about me. 
 
 [Email](mailto://hello.michaelhillcox@gmail.com), [Linkedin](https://linkedin.com/in/michael-hillcox-9995b7137), [Github](https://github.com/michaelhillcox), [Gitlab](https://gitlab.com/michaelhillcox)
 
