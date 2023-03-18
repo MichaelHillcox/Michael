@@ -11,7 +11,7 @@ export default function Home() {
         <img src="/assets/logo.svg" className="mb-10" width={90} alt="Michael's logo" />
 
         <div className={[s.comment, "mb-6"].join(" ")}>&#47;&#47; Introduce yourself</div>
-        <h1 className="mb-4 text-3xl font-bold">Hay, I&apos;m Michael.</h1>
+        <h1 className="mb-4 text-3xl font-bold">Hey, I&apos;m Michael.</h1>
         <p className="mb-6">I&apos;m a <em>full-stack developer</em> and a <em>part-time designer</em> with over 10 years experience working in the Web Industry. Lead developer at <ExternalLink href="https://feed-the-beast.com">Feed The Beast</ExternalLink> creating <em>Software</em>, <em><ExternalLink href="https://minecraft.fandom.com/wiki/Mods">Minecraft mods</ExternalLink></em>, and <em>Managing Projects</em>.</p>
 
         <div className="flex gap-6 mb-16 flex-wrap">
