@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "fonts";
+@import "typeography";
+
+html,
+body {
+  font-family: 'Fira Code', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1f2023;
+  color: #b3b3b3;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+::selection {
+  background-color: #22417f;
+}
+
+em {
+  color: #26ad98;
+}
+
+.star {
+  color: #b79859;
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: .3rem;
+
+  &:hover {
+    color: #577a96;
+  }
+}

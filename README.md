@@ -1,14 +1,13 @@
-# Michael's Portfolio
+# Welcome to my Portfolio
 
-## Hay! :wave: 
-
-Welcome to my portfolio, it's not much but it's mine. You can find what I'm good at, how to get in touch and some of the projects I've worked on over the years.
-
-## Well, seeing as you're hear...
-
-I'm a Full Stack web developer specialising in UI & UX development, currently working freelance. I work with a large group of different tech stacks, my favourite at the moment being `NodeJs`, `Typescript`, `JS` and `Vue2 & 3`. Check out the portfolio for more [michaelhillcox.com](https://michaelhillcox.com).
-
-Feel free to get in touch via [me@mhfs.dev](mailto:me@mhfs.dev) or [me@michaelhillcox.com](mailto:me@michaelhillcox.comv) for a chat 😁 
+Hello and welcome :wave:! My name is Michael, or Mikey, and this is my portfolio. Although I'm not actively seeking freelance work at the moment, I make an effort to keep my portfolio up to date. With over 10 years of experience in the web industry, I am constantly learning, creating, tinkering, and exploring. I hope to showcase my knowledge and skills that I've gained over the years through this website. Thanks for stopping by!
 
 ## Stack
-- `Jekyll`, `SCSS`, `Markdown`
+
+- NextJS
+- Tailwind
+- PNPM (The best NPM)
+- Cloudflare Pages
+
+That's about it, it's a very simple website :heart:
+
