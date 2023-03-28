@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </div>
 
-        <p className="mt-6">I also make bots / apps for a bunch of different use cases so I&apos;ve very familiar with the API&apos;s, frameworks and ecosystems of platforms like <em>Discord</em>, <em>Slack</em>, <em>Microsoft Teams</em>, <em>GitHub</em>, <em>Telegram</em>, <em>Shopify</em>, etc.</p>
+        <p className="mt-6">I also make bots / apps for a bunch of different use cases so I&apos;m very familiar with the API&apos;s, frameworks and ecosystems of platforms like <em>Discord</em>, <em>Slack</em>, <em>Microsoft Teams</em>, <em>GitHub</em>, <em>Telegram</em>, <em>Shopify</em>, etc.</p>
 
         <div className={[s.comment, "mb-6 mt-16"].join(" ")}>&#47;&#47; Let people know how to contact me</div>
         <h2 className="mb-4 text-2xl font-bold">Contact</h2>
