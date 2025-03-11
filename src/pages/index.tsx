@@ -39,7 +39,7 @@ export default function Home() {
               <li className="star"><FontAwesomeIcon icon={faStar} /> Typescript & Javascript</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> C#</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> NodeJS, Bun & Deno (1 & 2)</li>
-              <li>Python</li>
+              <li>Python (2.+ & 3.+)</li>
               <li>Rust</li>
               <li>GoLang</li>
               <li>C / C++</li>
@@ -54,15 +54,14 @@ export default function Home() {
             <p className="mb-2">Frameworks! Frameworks all the way down...</p>
             <ul className="list-disc pl-4" role="list">
               <li className="star"><FontAwesomeIcon icon={faStar} /> React</li>
+              <li className="star"><FontAwesomeIcon icon={faStar} /> Svelte & SvelteKit</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> Vue (2 & 3)</li>
               <li>ExpressJS</li>
               <li>Javalin</li>
               <li>NestJS</li>
               <li>NextJS</li>
-              <li>Nuxt</li>
               <li>ExpressJS</li>
               <li>Laravel</li>
-              <li>Flask</li>
               <li>Wordpress (😭)</li>
               <li>And a bunch more, just too many to list here...</li>
             </ul>
