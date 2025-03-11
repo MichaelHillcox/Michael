@@ -38,7 +38,7 @@ export default function Home() {
               <li className="star"><FontAwesomeIcon icon={faStar} /> Java</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> Typescript & Javascript</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> C#</li>
-              <li className="star"><FontAwesomeIcon icon={faStar} /> NodeJS & Deno</li>
+              <li className="star"><FontAwesomeIcon icon={faStar} /> NodeJS, Bun & Deno (1 & 2)</li>
               <li>Python</li>
               <li>Rust</li>
               <li>GoLang</li>
