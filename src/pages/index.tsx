@@ -38,11 +38,11 @@ export default function Home() {
               <li className="star"><FontAwesomeIcon icon={faStar} /> Java</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> Typescript & Javascript</li>
               <li className="star"><FontAwesomeIcon icon={faStar} /> C#</li>
-              <li className="star"><FontAwesomeIcon icon={faStar} /> NodeJS, Bun & Deno (1 & 2)</li>
+              <li className="star"><FontAwesomeIcon icon={faStar} /> NodeJS, Deno, and Bun</li>
               <li>Python (2.+ & 3.+)</li>
-              <li>Rust</li>
               <li>GoLang</li>
-              <li>C / C++</li>
+              <li>Rust</li>
+              <li>Kotlin</li>
               <li>PHP 5.4+ (8.2 <FontAwesomeIcon icon={faHeart} />)</li>
               <li>Docker, Linux, Git, Nginx, Caddy, Apache, and Bash</li>
               <li>Most databases and all the web stack, HTML, CSS, SCSS, Less and loads more!</li>
